@@ -1,6 +1,10 @@
 ---
 title: My first blog post
 date: 2020-02-26 16:35:00 Z
+categories:
+- news
+tags:
+- markdown
 description: 'This blog post is about using Markdown. '
 ---
 
