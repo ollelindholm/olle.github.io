@@ -12,5 +12,5 @@ collections:
   uploads:
     title: Uploads
     output: true
-remote_theme: barryclark/jekyll-now
+remote_theme: jekyll-now
 Description: Feel free to bookmark this to keep an eye on my project updates.
