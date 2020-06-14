@@ -1,16 +1,23 @@
 ---
-title: Welcome to Olle Lindholm's portfolio!
+title: Olle Lindholm
 timezone: UTC
 collections:
-  blog:
-    title: Blog
-    output: true
-    permalink: blog
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-remote_theme: jekyll-now
-Description: Feel free to bookmark this to keep an eye on my project updates.
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
